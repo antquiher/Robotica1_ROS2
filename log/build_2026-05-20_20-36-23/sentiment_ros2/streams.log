@@ -1,0 +1,40 @@
+[1.523s] Invoking command in '/home/antonio/ros2_ws/build/sentiment_ros2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ai-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/antonio/ros2_ws/build/sentiment_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/ros2_ws/install/sentiment_ros2/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ai-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/antonio/ros2_ws/build/sentiment_ros2/build
+[1.805s] running develop
+[2.020s] Removing /home/antonio/ros2_ws/install/sentiment_ros2/lib/python3.12/site-packages/sentiment-ros2.egg-link (link to .)
+[2.053s] Invoked command in '/home/antonio/ros2_ws/build/sentiment_ros2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ai-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/antonio/ros2_ws/build/sentiment_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/ros2_ws/install/sentiment_ros2/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ai-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/antonio/ros2_ws/build/sentiment_ros2/build
+[2.054s] Invoking command in '/home/antonio/ros2_ws/src/sentiment_ros2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ai-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/antonio/ros2_ws/build/sentiment_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/ros2_ws/install/sentiment_ros2/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ai-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sentiment_ros2 build --build-base /home/antonio/ros2_ws/build/sentiment_ros2/build install --record /home/antonio/ros2_ws/build/sentiment_ros2/install.log --single-version-externally-managed install_data --force
+[2.313s] running egg_info
+[2.334s] writing ../../build/sentiment_ros2/sentiment_ros2.egg-info/PKG-INFO
+[2.334s] writing dependency_links to ../../build/sentiment_ros2/sentiment_ros2.egg-info/dependency_links.txt
+[2.335s] writing entry points to ../../build/sentiment_ros2/sentiment_ros2.egg-info/entry_points.txt
+[2.335s] writing requirements to ../../build/sentiment_ros2/sentiment_ros2.egg-info/requires.txt
+[2.335s] writing top-level names to ../../build/sentiment_ros2/sentiment_ros2.egg-info/top_level.txt
+[2.377s] reading manifest file '../../build/sentiment_ros2/sentiment_ros2.egg-info/SOURCES.txt'
+[2.378s] writing manifest file '../../build/sentiment_ros2/sentiment_ros2.egg-info/SOURCES.txt'
+[2.378s] running build
+[2.378s] running build_py
+[2.378s] creating /home/antonio/ros2_ws/build/sentiment_ros2/build
+[2.378s] creating /home/antonio/ros2_ws/build/sentiment_ros2/build/lib
+[2.379s] creating /home/antonio/ros2_ws/build/sentiment_ros2/build/lib/sentiment_ros2
+[2.379s] copying sentiment_ros2/text_publisher.py -> /home/antonio/ros2_ws/build/sentiment_ros2/build/lib/sentiment_ros2
+[2.379s] copying sentiment_ros2/sentiment_subscriber.py -> /home/antonio/ros2_ws/build/sentiment_ros2/build/lib/sentiment_ros2
+[2.379s] copying sentiment_ros2/__init__.py -> /home/antonio/ros2_ws/build/sentiment_ros2/build/lib/sentiment_ros2
+[2.380s] running install
+[2.384s] running install_lib
+[2.405s] creating /home/antonio/ros2_ws/install/sentiment_ros2/lib/python3.12/site-packages/sentiment_ros2
+[2.405s] copying /home/antonio/ros2_ws/build/sentiment_ros2/build/lib/sentiment_ros2/text_publisher.py -> /home/antonio/ros2_ws/install/sentiment_ros2/lib/python3.12/site-packages/sentiment_ros2
+[2.406s] copying /home/antonio/ros2_ws/build/sentiment_ros2/build/lib/sentiment_ros2/sentiment_subscriber.py -> /home/antonio/ros2_ws/install/sentiment_ros2/lib/python3.12/site-packages/sentiment_ros2
+[2.406s] copying /home/antonio/ros2_ws/build/sentiment_ros2/build/lib/sentiment_ros2/__init__.py -> /home/antonio/ros2_ws/install/sentiment_ros2/lib/python3.12/site-packages/sentiment_ros2
+[2.406s] byte-compiling /home/antonio/ros2_ws/install/sentiment_ros2/lib/python3.12/site-packages/sentiment_ros2/text_publisher.py to text_publisher.cpython-312.pyc
+[2.406s] byte-compiling /home/antonio/ros2_ws/install/sentiment_ros2/lib/python3.12/site-packages/sentiment_ros2/sentiment_subscriber.py to sentiment_subscriber.cpython-312.pyc
+[2.407s] byte-compiling /home/antonio/ros2_ws/install/sentiment_ros2/lib/python3.12/site-packages/sentiment_ros2/__init__.py to __init__.cpython-312.pyc
+[2.407s] running install_data
+[2.408s] copying resource/sentiment_ros2 -> /home/antonio/ros2_ws/install/sentiment_ros2/share/ament_index/resource_index/packages
+[2.409s] copying package.xml -> /home/antonio/ros2_ws/install/sentiment_ros2/share/sentiment_ros2
+[2.409s] running install_egg_info
+[2.429s] Copying ../../build/sentiment_ros2/sentiment_ros2.egg-info to /home/antonio/ros2_ws/install/sentiment_ros2/lib/python3.12/site-packages/sentiment_ros2-0.0.0-py3.12.egg-info
+[2.430s] running install_scripts
+[2.556s] Installing sentiment_subscriber script to /home/antonio/ros2_ws/install/sentiment_ros2/lib/sentiment_ros2
+[2.556s] Installing text_publisher script to /home/antonio/ros2_ws/install/sentiment_ros2/lib/sentiment_ros2
+[2.556s] writing list of installed files to '/home/antonio/ros2_ws/build/sentiment_ros2/install.log'
+[2.583s] Invoked command in '/home/antonio/ros2_ws/src/sentiment_ros2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ai-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/antonio/ros2_ws/build/sentiment_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/ros2_ws/install/sentiment_ros2/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ai-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sentiment_ros2 build --build-base /home/antonio/ros2_ws/build/sentiment_ros2/build install --record /home/antonio/ros2_ws/build/sentiment_ros2/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,66 @@
+[1.352s] Invoking command in '/home/antonio/ros2_ws/build/diff_robot_urdf': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ai-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/antonio/ros2_ws/build/diff_robot_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/ros2_ws/install/diff_robot_urdf/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ai-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/antonio/ros2_ws/build/diff_robot_urdf/build
+[1.648s] running develop
+[1.872s] Removing /home/antonio/ros2_ws/install/diff_robot_urdf/lib/python3.12/site-packages/diff-robot-urdf.egg-link (link to .)
+[1.910s] Invoked command in '/home/antonio/ros2_ws/build/diff_robot_urdf' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ai-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/antonio/ros2_ws/build/diff_robot_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/ros2_ws/install/diff_robot_urdf/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ai-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/antonio/ros2_ws/build/diff_robot_urdf/build
+[1.911s] Invoking command in '/home/antonio/ros2_ws/src/diff_robot_urdff': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ai-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/antonio/ros2_ws/build/diff_robot_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/ros2_ws/install/diff_robot_urdf/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ai-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/diff_robot_urdf build --build-base /home/antonio/ros2_ws/build/diff_robot_urdf/build install --record /home/antonio/ros2_ws/build/diff_robot_urdf/install.log --single-version-externally-managed install_data --force
+[2.185s] running egg_info
+[2.208s] writing ../../build/diff_robot_urdf/diff_robot_urdf.egg-info/PKG-INFO
+[2.208s] writing dependency_links to ../../build/diff_robot_urdf/diff_robot_urdf.egg-info/dependency_links.txt
+[2.208s] writing entry points to ../../build/diff_robot_urdf/diff_robot_urdf.egg-info/entry_points.txt
+[2.208s] writing requirements to ../../build/diff_robot_urdf/diff_robot_urdf.egg-info/requires.txt
+[2.208s] writing top-level names to ../../build/diff_robot_urdf/diff_robot_urdf.egg-info/top_level.txt
+[2.252s] reading manifest file '../../build/diff_robot_urdf/diff_robot_urdf.egg-info/SOURCES.txt'
+[2.252s] writing manifest file '../../build/diff_robot_urdf/diff_robot_urdf.egg-info/SOURCES.txt'
+[2.253s] running build
+[2.253s] running build_py
+[2.253s] creating /home/antonio/ros2_ws/build/diff_robot_urdf/build
+[2.253s] creating /home/antonio/ros2_ws/build/diff_robot_urdf/build/lib
+[2.253s] creating /home/antonio/ros2_ws/build/diff_robot_urdf/build/lib/diff_robot_urdf
+[2.254s] copying diff_robot_urdf/arm_controller.py -> /home/antonio/ros2_ws/build/diff_robot_urdf/build/lib/diff_robot_urdf
+[2.254s] copying diff_robot_urdf/arm_teleop_bridge.py -> /home/antonio/ros2_ws/build/diff_robot_urdf/build/lib/diff_robot_urdf
+[2.254s] copying diff_robot_urdf/__init__.py -> /home/antonio/ros2_ws/build/diff_robot_urdf/build/lib/diff_robot_urdf
+[2.254s] running install
+[2.257s] running install_lib
+[2.278s] creating /home/antonio/ros2_ws/install/diff_robot_urdf/lib/python3.12/site-packages/diff_robot_urdf
+[2.279s] copying /home/antonio/ros2_ws/build/diff_robot_urdf/build/lib/diff_robot_urdf/arm_controller.py -> /home/antonio/ros2_ws/install/diff_robot_urdf/lib/python3.12/site-packages/diff_robot_urdf
+[2.279s] copying /home/antonio/ros2_ws/build/diff_robot_urdf/build/lib/diff_robot_urdf/arm_teleop_bridge.py -> /home/antonio/ros2_ws/install/diff_robot_urdf/lib/python3.12/site-packages/diff_robot_urdf
+[2.279s] copying /home/antonio/ros2_ws/build/diff_robot_urdf/build/lib/diff_robot_urdf/__init__.py -> /home/antonio/ros2_ws/install/diff_robot_urdf/lib/python3.12/site-packages/diff_robot_urdf
+[2.279s] byte-compiling /home/antonio/ros2_ws/install/diff_robot_urdf/lib/python3.12/site-packages/diff_robot_urdf/arm_controller.py to arm_controller.cpython-312.pyc
+[2.279s] byte-compiling /home/antonio/ros2_ws/install/diff_robot_urdf/lib/python3.12/site-packages/diff_robot_urdf/arm_teleop_bridge.py to arm_teleop_bridge.cpython-312.pyc
+[2.279s] byte-compiling /home/antonio/ros2_ws/install/diff_robot_urdf/lib/python3.12/site-packages/diff_robot_urdf/__init__.py to __init__.cpython-312.pyc
+[2.279s] running install_data
+[2.279s] copying resource/diff_robot_urdf -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/ament_index/resource_index/packages
+[2.280s] copying package.xml -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf
+[2.280s] copying launch/sim.launch.py -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/launch
+[2.280s] copying launch/camera_view.launch.py -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/launch
+[2.280s] copying launch/mapping.launch.py -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/launch
+[2.280s] copying worlds/tracer_classroom.sdf -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/worlds
+[2.280s] copying worlds/Loyola_Hospital_min.world -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/worlds
+[2.280s] copying urdf/robot_arm.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+[2.280s] copying urdf/fl_wheel.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+[2.280s] copying urdf/fl_castor.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+[2.281s] copying urdf/rr_castor.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+[2.281s] copying urdf/fr_castor.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+[2.281s] copying urdf/rl_wheel.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+[2.281s] copying urdf/tracer_wheel_1.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+[2.281s] copying urdf/tracer_v1.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+[2.281s] copying urdf/tracer_wheel_2.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+[2.281s] copying urdf/empty.urdf -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+[2.281s] copying urdf/rr_wheel.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+[2.281s] copying urdf/fr_wheel.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+[2.281s] copying urdf/rl_castor.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+[2.282s] copying meshes/tracer_base_link_no_wheel.dae -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/meshes
+[2.288s] copying meshes/castor.dae -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/meshes
+[2.289s] copying meshes/castor_joint.dae -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/meshes
+[2.289s] copying meshes/caster_L.stl -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/meshes
+[2.289s] copying meshes/caster.stl -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/meshes
+[2.289s] copying meshes/tracer_base_link.dae -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/meshes
+[2.300s] copying meshes/tracer_wheel.dae -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/meshes
+[2.300s] copying config/ros_gz_bridge.yaml -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/config
+[2.301s] copying config/mapper_params_online_async.yaml -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/config
+[2.301s] running install_egg_info
+[2.322s] Copying ../../build/diff_robot_urdf/diff_robot_urdf.egg-info to /home/antonio/ros2_ws/install/diff_robot_urdf/lib/python3.12/site-packages/diff_robot_urdf-0.0.0-py3.12.egg-info
+[2.323s] running install_scripts
+[2.457s] Installing arm_controller script to /home/antonio/ros2_ws/install/diff_robot_urdf/lib/diff_robot_urdf
+[2.458s] writing list of installed files to '/home/antonio/ros2_ws/build/diff_robot_urdf/install.log'
+[2.489s] Invoked command in '/home/antonio/ros2_ws/src/diff_robot_urdff' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ai-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/antonio/ros2_ws/build/diff_robot_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/ros2_ws/install/diff_robot_urdf/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ai-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/diff_robot_urdf build --build-base /home/antonio/ros2_ws/build/diff_robot_urdf/build install --record /home/antonio/ros2_ws/build/diff_robot_urdf/install.log --single-version-externally-managed install_data --force

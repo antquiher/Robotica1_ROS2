@@ -1,0 +1,238 @@
+[0.129s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.129s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7efc1d3f0e00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7efc1d3f09b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7efc1d3f09b0>>, mixin_verb=('build',))
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.173s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/antonio/ros2_ws'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_robot_urdff) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_robot_urdff) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_robot_urdff) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_robot_urdff) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_robot_urdff) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_robot_urdff) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_robot_urdff) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_robot_urdff) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_robot_urdff) by extension 'ros'
+[0.211s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diff_robot_urdff' with type 'ros.ament_python' and name 'diff_robot_urdf'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentiment_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentiment_ros2) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentiment_ros2) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentiment_ros2) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentiment_ros2) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentiment_ros2) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentiment_ros2) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentiment_ros2) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentiment_ros2) by extension 'ros'
+[0.212s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sentiment_ros2' with type 'ros.ament_python' and name 'sentiment_ros2'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extension 'ros'
+[0.213s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teleop_twist_keyboard' with type 'ros.ament_python' and name 'teleop_twist_keyboard'
+[0.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.234s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/antonio/ros2_ws/install
+[0.237s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 431 installed packages in /opt/ros/jazzy
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.297s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'teleop_twist_keyboard' is in: /home/antonio/ros2_ws/install/teleop_twist_keyboard, /opt/ros/jazzy
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding teleop_twist_keyboard
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'diff_robot_urdf' build argument 'cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'diff_robot_urdf' build argument 'cmake_target' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'diff_robot_urdf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'diff_robot_urdf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'diff_robot_urdf' build argument 'cmake_clean_first' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'diff_robot_urdf' build argument 'cmake_force_configure' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'diff_robot_urdf' build argument 'ament_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'diff_robot_urdf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'diff_robot_urdf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.299s] DEBUG:colcon.colcon_core.verb:Building package 'diff_robot_urdf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/antonio/ros2_ws/build/diff_robot_urdf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/antonio/ros2_ws/install/diff_robot_urdf', 'merge_install': False, 'path': '/home/antonio/ros2_ws/src/diff_robot_urdff', 'symlink_install': False, 'test_result_base': None}
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'sentiment_ros2' build argument 'cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'sentiment_ros2' build argument 'cmake_target' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'sentiment_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'sentiment_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'sentiment_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'sentiment_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'sentiment_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'sentiment_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'sentiment_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.299s] DEBUG:colcon.colcon_core.verb:Building package 'sentiment_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/antonio/ros2_ws/build/sentiment_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/antonio/ros2_ws/install/sentiment_ros2', 'merge_install': False, 'path': '/home/antonio/ros2_ws/src/sentiment_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_target' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_clean_cache' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_clean_first' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_force_configure' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'ament_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'catkin_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.300s] DEBUG:colcon.colcon_core.verb:Building package 'teleop_twist_keyboard' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/antonio/ros2_ws/build/teleop_twist_keyboard', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/antonio/ros2_ws/install/teleop_twist_keyboard', 'merge_install': False, 'path': '/home/antonio/ros2_ws/src/teleop_twist_keyboard', 'symlink_install': False, 'test_result_base': None}
+[0.300s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.301s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.301s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/antonio/ros2_ws/src/diff_robot_urdff' with build type 'ament_python'
+[0.301s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_robot_urdf', 'ament_prefix_path')
+[0.303s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/hook/ament_prefix_path.ps1'
+[0.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/hook/ament_prefix_path.dsv'
+[0.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/hook/ament_prefix_path.sh'
+[0.305s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.305s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.310s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/antonio/ros2_ws/src/sentiment_ros2' with build type 'ament_python'
+[0.310s] Level 1:colcon.colcon_core.shell:create_environment_hook('sentiment_ros2', 'ament_prefix_path')
+[0.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antonio/ros2_ws/install/sentiment_ros2/share/sentiment_ros2/hook/ament_prefix_path.ps1'
+[0.311s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/antonio/ros2_ws/install/sentiment_ros2/share/sentiment_ros2/hook/ament_prefix_path.dsv'
+[0.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antonio/ros2_ws/install/sentiment_ros2/share/sentiment_ros2/hook/ament_prefix_path.sh'
+[0.312s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.312s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.316s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/antonio/ros2_ws/src/teleop_twist_keyboard' with build type 'ament_python'
+[0.316s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_keyboard', 'ament_prefix_path')
+[0.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antonio/ros2_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/ament_prefix_path.ps1'
+[0.317s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/antonio/ros2_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/ament_prefix_path.dsv'
+[0.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antonio/ros2_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/ament_prefix_path.sh'
+[0.318s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.318s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.630s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/antonio/ros2_ws/src/diff_robot_urdff'
+[0.631s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.631s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.851s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/antonio/ros2_ws/src/sentiment_ros2'
+[0.851s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.851s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.061s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/antonio/ros2_ws/src/teleop_twist_keyboard'
+[1.061s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.061s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/antonio/ros2_ws/src/teleop_twist_keyboard': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ai-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/antonio/ros2_ws/build/teleop_twist_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/ros2_ws/install/teleop_twist_keyboard/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ai-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/teleop_twist_keyboard build --build-base /home/antonio/ros2_ws/build/teleop_twist_keyboard/build install --record /home/antonio/ros2_ws/build/teleop_twist_keyboard/install.log --single-version-externally-managed install_data
+[1.642s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/antonio/ros2_ws/src/sentiment_ros2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ai-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/antonio/ros2_ws/build/sentiment_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/ros2_ws/install/sentiment_ros2/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ai-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sentiment_ros2 build --build-base /home/antonio/ros2_ws/build/sentiment_ros2/build install --record /home/antonio/ros2_ws/build/sentiment_ros2/install.log --single-version-externally-managed install_data
+[1.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/antonio/ros2_ws/build/diff_robot_urdf': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ai-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/antonio/ros2_ws/build/diff_robot_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/ros2_ws/install/diff_robot_urdf/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ai-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/antonio/ros2_ws/build/diff_robot_urdf/build
+[2.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/antonio/ros2_ws/src/sentiment_ros2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ai-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/antonio/ros2_ws/build/sentiment_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/ros2_ws/install/sentiment_ros2/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ai-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sentiment_ros2 build --build-base /home/antonio/ros2_ws/build/sentiment_ros2/build install --record /home/antonio/ros2_ws/build/sentiment_ros2/install.log --single-version-externally-managed install_data
+[2.192s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/ros2_ws/install/sentiment_ros2' for CMake module files
+[2.192s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/ros2_ws/install/sentiment_ros2' for CMake config files
+[2.193s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/ros2_ws/install/sentiment_ros2/lib'
+[2.193s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/ros2_ws/install/sentiment_ros2/bin'
+[2.193s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/ros2_ws/install/sentiment_ros2/lib/pkgconfig/sentiment_ros2.pc'
+[2.193s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/ros2_ws/install/sentiment_ros2/lib/python3.12/site-packages'
+[2.193s] Level 1:colcon.colcon_core.shell:create_environment_hook('sentiment_ros2', 'pythonpath')
+[2.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antonio/ros2_ws/install/sentiment_ros2/share/sentiment_ros2/hook/pythonpath.ps1'
+[2.194s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/antonio/ros2_ws/install/sentiment_ros2/share/sentiment_ros2/hook/pythonpath.dsv'
+[2.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antonio/ros2_ws/install/sentiment_ros2/share/sentiment_ros2/hook/pythonpath.sh'
+[2.195s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/ros2_ws/install/sentiment_ros2/bin'
+[2.195s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sentiment_ros2)
+[2.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/antonio/ros2_ws/install/sentiment_ros2/share/sentiment_ros2/package.ps1'
+[2.196s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/antonio/ros2_ws/install/sentiment_ros2/share/sentiment_ros2/package.dsv'
+[2.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/antonio/ros2_ws/install/sentiment_ros2/share/sentiment_ros2/package.sh'
+[2.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/antonio/ros2_ws/install/sentiment_ros2/share/sentiment_ros2/package.bash'
+[2.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/antonio/ros2_ws/install/sentiment_ros2/share/sentiment_ros2/package.zsh'
+[2.198s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/antonio/ros2_ws/install/sentiment_ros2/share/colcon-core/packages/sentiment_ros2)
+[2.199s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/ros2_ws/install/teleop_twist_keyboard' for CMake module files
+[2.200s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/antonio/ros2_ws/src/teleop_twist_keyboard' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ai-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/antonio/ros2_ws/build/teleop_twist_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/ros2_ws/install/teleop_twist_keyboard/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ai-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/teleop_twist_keyboard build --build-base /home/antonio/ros2_ws/build/teleop_twist_keyboard/build install --record /home/antonio/ros2_ws/build/teleop_twist_keyboard/install.log --single-version-externally-managed install_data
+[2.200s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/ros2_ws/install/teleop_twist_keyboard' for CMake config files
+[2.200s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/ros2_ws/install/teleop_twist_keyboard/lib'
+[2.201s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/ros2_ws/install/teleop_twist_keyboard/bin'
+[2.201s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/ros2_ws/install/teleop_twist_keyboard/lib/pkgconfig/teleop_twist_keyboard.pc'
+[2.201s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/ros2_ws/install/teleop_twist_keyboard/lib/python3.12/site-packages'
+[2.201s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_keyboard', 'pythonpath')
+[2.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antonio/ros2_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/pythonpath.ps1'
+[2.201s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/antonio/ros2_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/pythonpath.dsv'
+[2.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antonio/ros2_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/pythonpath.sh'
+[2.202s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/ros2_ws/install/teleop_twist_keyboard/bin'
+[2.202s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_twist_keyboard)
+[2.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/antonio/ros2_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/package.ps1'
+[2.203s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/antonio/ros2_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/package.dsv'
+[2.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/antonio/ros2_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/package.sh'
+[2.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/antonio/ros2_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/package.bash'
+[2.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/antonio/ros2_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/package.zsh'
+[2.204s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/antonio/ros2_ws/install/teleop_twist_keyboard/share/colcon-core/packages/teleop_twist_keyboard)
+[2.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/antonio/ros2_ws/build/diff_robot_urdf' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ai-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/antonio/ros2_ws/build/diff_robot_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/ros2_ws/install/diff_robot_urdf/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ai-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/antonio/ros2_ws/build/diff_robot_urdf/build
+[2.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/antonio/ros2_ws/src/diff_robot_urdff': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ai-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/antonio/ros2_ws/build/diff_robot_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/ros2_ws/install/diff_robot_urdf/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ai-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/diff_robot_urdf build --build-base /home/antonio/ros2_ws/build/diff_robot_urdf/build install --record /home/antonio/ros2_ws/build/diff_robot_urdf/install.log --single-version-externally-managed install_data --force
+[2.798s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/ros2_ws/install/diff_robot_urdf' for CMake module files
+[2.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/antonio/ros2_ws/src/diff_robot_urdff' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ai-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/antonio/ros2_ws/build/diff_robot_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/ros2_ws/install/diff_robot_urdf/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ai-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/diff_robot_urdf build --build-base /home/antonio/ros2_ws/build/diff_robot_urdf/build install --record /home/antonio/ros2_ws/build/diff_robot_urdf/install.log --single-version-externally-managed install_data --force
+[2.799s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/ros2_ws/install/diff_robot_urdf' for CMake config files
+[2.799s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/ros2_ws/install/diff_robot_urdf/lib'
+[2.799s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/ros2_ws/install/diff_robot_urdf/bin'
+[2.799s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/ros2_ws/install/diff_robot_urdf/lib/pkgconfig/diff_robot_urdf.pc'
+[2.800s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/ros2_ws/install/diff_robot_urdf/lib/python3.12/site-packages'
+[2.800s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_robot_urdf', 'pythonpath')
+[2.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/hook/pythonpath.ps1'
+[2.800s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/hook/pythonpath.dsv'
+[2.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/hook/pythonpath.sh'
+[2.801s] Level 1:colcon.colcon_core.environment:checking '/home/antonio/ros2_ws/install/diff_robot_urdf/bin'
+[2.801s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_robot_urdf)
+[2.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/package.ps1'
+[2.802s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/package.dsv'
+[2.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/package.sh'
+[2.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/package.bash'
+[2.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/package.zsh'
+[2.803s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/antonio/ros2_ws/install/diff_robot_urdf/share/colcon-core/packages/diff_robot_urdf)
+[2.803s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.803s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.803s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.803s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.808s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.808s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.808s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.819s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.819s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/antonio/ros2_ws/install/local_setup.ps1'
+[2.820s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/antonio/ros2_ws/install/_local_setup_util_ps1.py'
+[2.821s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/antonio/ros2_ws/install/setup.ps1'
+[2.822s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/antonio/ros2_ws/install/local_setup.sh'
+[2.822s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/antonio/ros2_ws/install/_local_setup_util_sh.py'
+[2.822s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/antonio/ros2_ws/install/setup.sh'
+[2.823s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/antonio/ros2_ws/install/local_setup.bash'
+[2.823s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/antonio/ros2_ws/install/setup.bash'
+[2.824s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/antonio/ros2_ws/install/local_setup.zsh'
+[2.824s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/antonio/ros2_ws/install/setup.zsh'

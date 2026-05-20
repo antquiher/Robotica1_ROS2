@@ -1,0 +1,43 @@
+running develop
+running egg_info
+writing diff_robot_urdf.egg-info/PKG-INFO
+writing dependency_links to diff_robot_urdf.egg-info/dependency_links.txt
+writing entry points to diff_robot_urdf.egg-info/entry_points.txt
+writing requirements to diff_robot_urdf.egg-info/requires.txt
+writing top-level names to diff_robot_urdf.egg-info/top_level.txt
+reading manifest file 'diff_robot_urdf.egg-info/SOURCES.txt'
+writing manifest file 'diff_robot_urdf.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/antonio/ros2_ws/install/diff_robot_urdf/lib/python3.12/site-packages/diff-robot-urdf.egg-link (link to .)
+Installing arm_controller script to /home/antonio/ros2_ws/install/diff_robot_urdf/lib/diff_robot_urdf
+
+Installed /home/antonio/ros2_ws/build/diff_robot_urdf
+running symlink_data
+symbolically linking /home/antonio/ros2_ws/build/diff_robot_urdf/resource/diff_robot_urdf -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/ament_index/resource_index/packages
+symbolically linking /home/antonio/ros2_ws/build/diff_robot_urdf/package.xml -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf
+symbolically linking /home/antonio/ros2_ws/build/diff_robot_urdf/launch/sim.launch.py -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/launch
+symbolically linking /home/antonio/ros2_ws/build/diff_robot_urdf/launch/mapping.launch.py -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/launch
+symbolically linking /home/antonio/ros2_ws/build/diff_robot_urdf/worlds/tracer_classroom.sdf -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/worlds
+symbolically linking /home/antonio/ros2_ws/build/diff_robot_urdf/worlds/Loyola_Hospital_min.world -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/worlds
+symbolically linking /home/antonio/ros2_ws/build/diff_robot_urdf/urdf/robot_arm.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+symbolically linking /home/antonio/ros2_ws/build/diff_robot_urdf/urdf/fl_wheel.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+symbolically linking /home/antonio/ros2_ws/build/diff_robot_urdf/urdf/fl_castor.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+symbolically linking /home/antonio/ros2_ws/build/diff_robot_urdf/urdf/rr_castor.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+symbolically linking /home/antonio/ros2_ws/build/diff_robot_urdf/urdf/fr_castor.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+symbolically linking /home/antonio/ros2_ws/build/diff_robot_urdf/urdf/rl_wheel.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+symbolically linking /home/antonio/ros2_ws/build/diff_robot_urdf/urdf/tracer_wheel_1.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+symbolically linking /home/antonio/ros2_ws/build/diff_robot_urdf/urdf/tracer_v1.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+symbolically linking /home/antonio/ros2_ws/build/diff_robot_urdf/urdf/tracer_wheel_2.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+symbolically linking /home/antonio/ros2_ws/build/diff_robot_urdf/urdf/empty.urdf -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+symbolically linking /home/antonio/ros2_ws/build/diff_robot_urdf/urdf/rr_wheel.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+symbolically linking /home/antonio/ros2_ws/build/diff_robot_urdf/urdf/fr_wheel.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+symbolically linking /home/antonio/ros2_ws/build/diff_robot_urdf/urdf/rl_castor.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+symbolically linking /home/antonio/ros2_ws/build/diff_robot_urdf/meshes/tracer_base_link_no_wheel.dae -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/meshes
+symbolically linking /home/antonio/ros2_ws/build/diff_robot_urdf/meshes/castor.dae -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/meshes
+symbolically linking /home/antonio/ros2_ws/build/diff_robot_urdf/meshes/castor_joint.dae -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/meshes
+symbolically linking /home/antonio/ros2_ws/build/diff_robot_urdf/meshes/caster_L.stl -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/meshes
+symbolically linking /home/antonio/ros2_ws/build/diff_robot_urdf/meshes/caster.stl -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/meshes
+symbolically linking /home/antonio/ros2_ws/build/diff_robot_urdf/meshes/tracer_base_link.dae -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/meshes
+symbolically linking /home/antonio/ros2_ws/build/diff_robot_urdf/meshes/tracer_wheel.dae -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/meshes
+symbolically linking /home/antonio/ros2_ws/build/diff_robot_urdf/config/ros_gz_bridge.yaml -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/config
+symbolically linking /home/antonio/ros2_ws/build/diff_robot_urdf/config/mapper_params_online_async.yaml -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/config

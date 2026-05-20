@@ -1,0 +1,3 @@
+[console_scripts]
+sentiment_subscriber = sentiment_ros2.sentiment_subscriber:main
+text_publisher = sentiment_ros2.text_publisher:main

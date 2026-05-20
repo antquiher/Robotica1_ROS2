@@ -1,0 +1,31 @@
+running egg_info
+writing ../../build/diff_robot_urdf/diff_robot_urdf.egg-info/PKG-INFO
+writing dependency_links to ../../build/diff_robot_urdf/diff_robot_urdf.egg-info/dependency_links.txt
+writing entry points to ../../build/diff_robot_urdf/diff_robot_urdf.egg-info/entry_points.txt
+writing requirements to ../../build/diff_robot_urdf/diff_robot_urdf.egg-info/requires.txt
+writing top-level names to ../../build/diff_robot_urdf/diff_robot_urdf.egg-info/top_level.txt
+reading manifest file '../../build/diff_robot_urdf/diff_robot_urdf.egg-info/SOURCES.txt'
+writing manifest file '../../build/diff_robot_urdf/diff_robot_urdf.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/sim.launch.py -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/launch
+copying urdf/fl_wheel.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+copying urdf/fl_castor.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+copying urdf/rr_castor.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+copying urdf/fr_castor.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+copying urdf/rl_wheel.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+copying urdf/tracer_wheel_1.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+copying urdf/tracer_v1.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+copying urdf/tracer_wheel_2.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+copying urdf/rr_wheel.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+copying urdf/fr_wheel.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+copying urdf/rl_castor.xacro -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf
+running install_egg_info
+removing '/home/antonio/ros2_ws/install/diff_robot_urdf/lib/python3.12/site-packages/diff_robot_urdf-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/diff_robot_urdf/diff_robot_urdf.egg-info to /home/antonio/ros2_ws/install/diff_robot_urdf/lib/python3.12/site-packages/diff_robot_urdf-0.0.0-py3.12.egg-info
+running install_scripts
+Installing arm_controller script to /home/antonio/ros2_ws/install/diff_robot_urdf/lib/diff_robot_urdf
+writing list of installed files to '/home/antonio/ros2_ws/build/diff_robot_urdf/install.log'

@@ -1,0 +1,21 @@
+[0.937s] Invoking command in '/home/antonio/ros2_ws/build/diff_robot_urdf': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/antonio/ros2_ws/build/diff_robot_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/ros2_ws/install/diff_robot_urdf/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ai-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/antonio/ros2_ws/build/diff_robot_urdf/build --no-deps symlink_data --force
+[1.306s] running develop
+[1.552s] running egg_info
+[1.575s] writing diff_robot_urdf.egg-info/PKG-INFO
+[1.575s] writing dependency_links to diff_robot_urdf.egg-info/dependency_links.txt
+[1.576s] writing entry points to diff_robot_urdf.egg-info/entry_points.txt
+[1.576s] writing requirements to diff_robot_urdf.egg-info/requires.txt
+[1.576s] writing top-level names to diff_robot_urdf.egg-info/top_level.txt
+[1.622s] reading manifest file 'diff_robot_urdf.egg-info/SOURCES.txt'
+[1.623s] writing manifest file 'diff_robot_urdf.egg-info/SOURCES.txt'
+[1.647s] running build_ext
+[1.647s] Creating /home/antonio/ros2_ws/install/diff_robot_urdf/lib/python3.12/site-packages/diff-robot-urdf.egg-link (link to .)
+[1.648s] Installing arm_controller script to /home/antonio/ros2_ws/install/diff_robot_urdf/lib/diff_robot_urdf
+[1.648s] 
+[1.648s] Installed /home/antonio/ros2_ws/build/diff_robot_urdf
+[1.648s] running symlink_data
+[1.648s] symbolically linking /home/antonio/ros2_ws/build/diff_robot_urdf/resource/diff_robot_urdf -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/ament_index/resource_index/packages
+[1.648s] symbolically linking /home/antonio/ros2_ws/build/diff_robot_urdf/package.xml -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf
+[1.649s] symbolically linking /home/antonio/ros2_ws/build/diff_robot_urdf/launch/sim.launch.py -> /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/launch
+[1.649s] error: [Errno 2] No such file or directory: '/home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/launch/camera_view.launch.py'
+[1.684s] Invoked command in '/home/antonio/ros2_ws/build/diff_robot_urdf' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/antonio/ros2_ws/build/diff_robot_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/ros2_ws/install/diff_robot_urdf/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ai-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/antonio/ros2_ws/build/diff_robot_urdf/build --no-deps symlink_data --force

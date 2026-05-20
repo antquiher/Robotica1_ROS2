@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+
+    <!-- Materiales para visualización -->
+    <material name="arm_grey">
+        <color rgba="0.5 0.5 0.5 1.0"/>
+    </material>
+
+    <!-- Base del Brazo (Se conecta al joint arm_base_joint del tracer_v1) -->
+    <link name="arm_base_link">
+        <visual>
+            <geometry>
+                <cylinder radius="0.05" length="0.05"/>
+            </geometry>
+            <material name="arm_grey"/>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.05" length="0.05"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <mass value="1.0"/>
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+        </inertial>
+    </link>
+
+    <!-- Articulación del Hombro (Giro sobre el eje Z) -->
+    <joint name="shoulder_pan_joint" type="revolute">
+        <parent link="arm_base_link"/>
+        <child link="shoulder_link"/>
+        <origin xyz="0 0 0.05" rpy="0 0 0"/>
+        <axis xyz="0 0 1"/>
+        <limit lower="-3.14" upper="3.14" effort="10.0" velocity="1.0"/>
+    </joint>
+
+    <link name="shoulder_link">
+        <visual>
+            <origin xyz="0 0 0.1" rpy="0 0 0"/>
+            <geometry>
+                <cylinder radius="0.03" length="0.2"/>
+            </geometry>
+            <material name="arm_grey"/>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0.1" rpy="0 0 0"/>
+            <geometry>
+                <cylinder radius="0.03" length="0.2"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin xyz="0 0 0.1" rpy="0 0 0"/>
+            <mass value="0.8"/>
+            <inertia ixx="0.002" ixy="0" ixz="0" iyy="0.002" iyz="0" izz="0.001"/>
+        </inertial>
+    </link>
+
+    <!-- Articulación del Codo (Giro sobre el eje Y) -->
+    <joint name="elbow_joint" type="revolute">
+        <parent link="shoulder_link"/>
+        <child link="forearm_link"/>
+        <origin xyz="0 0 0.2" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="-1.57" upper="1.57" effort="10.0" velocity="1.0"/>
+    </joint>
+
+    <link name="forearm_link">
+        <visual>
+            <origin xyz="0 0 0.1" rpy="0 0 0"/>
+            <geometry>
+                <box size="0.03 0.03 0.2"/>
+            </geometry>
+            <material name="black"/>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0.1" rpy="0 0 0"/>
+            <geometry>
+                <box size="0.03 0.03 0.2"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin xyz="0 0 0.1" rpy="0 0 0"/>
+            <mass value="0.5"/>
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+        </inertial>
+    </link>
+
+    <!-- Configuración para Gazebo -->
+    <gazebo reference="arm_base_link">
+        <material>Gazebo/Grey</material>
+    </gazebo>
+    <gazebo reference="forearm_link">
+        <material>Gazebo/Black</material>
+    </gazebo>
+
+    <!-- Plugin para controlar el hombro bloqueado en 0 (eje Z fijo) -->
+    <gazebo>
+        <plugin
+            filename="ignition-gazebo-joint-controller-system"
+            name="ignition::gazebo::systems::JointController">
+            <joint_name>shoulder_pan_joint</joint_name>
+            <topic>/model/tracer/shoulder_pan_cmd</topic>
+            <p_gain>500.0</p_gain>
+            <i_gain>10.0</i_gain>
+            <d_gain>20.0</d_gain>
+        </plugin>
+    </gazebo>
+
+    <!-- Plugin para controlar el codo en Gazebo/Ignition (arriba/abajo) -->
+    <gazebo>
+        <plugin
+            filename="ignition-gazebo-joint-controller-system"
+            name="ignition::gazebo::systems::JointController">
+            <joint_name>elbow_joint</joint_name>
+            <topic>/model/tracer/elbow_joint_cmd</topic>
+            <p_gain>500.0</p_gain>
+            <i_gain>10.0</i_gain>
+            <d_gain>20.0</d_gain>
+        </plugin>
+    </gazebo>
+
+</robot>

@@ -1,0 +1,36 @@
+running develop
+Removing /home/antonio/ros2_ws/install/sentiment_ros2/lib/python3.12/site-packages/sentiment-ros2.egg-link (link to .)
+running egg_info
+writing ../../build/sentiment_ros2/sentiment_ros2.egg-info/PKG-INFO
+writing dependency_links to ../../build/sentiment_ros2/sentiment_ros2.egg-info/dependency_links.txt
+writing entry points to ../../build/sentiment_ros2/sentiment_ros2.egg-info/entry_points.txt
+writing requirements to ../../build/sentiment_ros2/sentiment_ros2.egg-info/requires.txt
+writing top-level names to ../../build/sentiment_ros2/sentiment_ros2.egg-info/top_level.txt
+reading manifest file '../../build/sentiment_ros2/sentiment_ros2.egg-info/SOURCES.txt'
+writing manifest file '../../build/sentiment_ros2/sentiment_ros2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/antonio/ros2_ws/build/sentiment_ros2/build
+creating /home/antonio/ros2_ws/build/sentiment_ros2/build/lib
+creating /home/antonio/ros2_ws/build/sentiment_ros2/build/lib/sentiment_ros2
+copying sentiment_ros2/text_publisher.py -> /home/antonio/ros2_ws/build/sentiment_ros2/build/lib/sentiment_ros2
+copying sentiment_ros2/sentiment_subscriber.py -> /home/antonio/ros2_ws/build/sentiment_ros2/build/lib/sentiment_ros2
+copying sentiment_ros2/__init__.py -> /home/antonio/ros2_ws/build/sentiment_ros2/build/lib/sentiment_ros2
+running install
+running install_lib
+creating /home/antonio/ros2_ws/install/sentiment_ros2/lib/python3.12/site-packages/sentiment_ros2
+copying /home/antonio/ros2_ws/build/sentiment_ros2/build/lib/sentiment_ros2/text_publisher.py -> /home/antonio/ros2_ws/install/sentiment_ros2/lib/python3.12/site-packages/sentiment_ros2
+copying /home/antonio/ros2_ws/build/sentiment_ros2/build/lib/sentiment_ros2/sentiment_subscriber.py -> /home/antonio/ros2_ws/install/sentiment_ros2/lib/python3.12/site-packages/sentiment_ros2
+copying /home/antonio/ros2_ws/build/sentiment_ros2/build/lib/sentiment_ros2/__init__.py -> /home/antonio/ros2_ws/install/sentiment_ros2/lib/python3.12/site-packages/sentiment_ros2
+byte-compiling /home/antonio/ros2_ws/install/sentiment_ros2/lib/python3.12/site-packages/sentiment_ros2/text_publisher.py to text_publisher.cpython-312.pyc
+byte-compiling /home/antonio/ros2_ws/install/sentiment_ros2/lib/python3.12/site-packages/sentiment_ros2/sentiment_subscriber.py to sentiment_subscriber.cpython-312.pyc
+byte-compiling /home/antonio/ros2_ws/install/sentiment_ros2/lib/python3.12/site-packages/sentiment_ros2/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying resource/sentiment_ros2 -> /home/antonio/ros2_ws/install/sentiment_ros2/share/ament_index/resource_index/packages
+copying package.xml -> /home/antonio/ros2_ws/install/sentiment_ros2/share/sentiment_ros2
+running install_egg_info
+Copying ../../build/sentiment_ros2/sentiment_ros2.egg-info to /home/antonio/ros2_ws/install/sentiment_ros2/lib/python3.12/site-packages/sentiment_ros2-0.0.0-py3.12.egg-info
+running install_scripts
+Installing sentiment_subscriber script to /home/antonio/ros2_ws/install/sentiment_ros2/lib/sentiment_ros2
+Installing text_publisher script to /home/antonio/ros2_ws/install/sentiment_ros2/lib/sentiment_ros2
+writing list of installed files to '/home/antonio/ros2_ws/build/sentiment_ros2/install.log'

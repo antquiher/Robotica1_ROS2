@@ -1,0 +1,23 @@
+[1.298s] Invoking command in '/home/antonio/ros2_ws/build/teleop_twist_keyboard': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/antonio/ros2_ws/build/teleop_twist_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/ros2_ws/install/teleop_twist_keyboard/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ai-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/antonio/ros2_ws/build/teleop_twist_keyboard/build --no-deps symlink_data
+[1.651s] running develop
+[1.913s] running egg_info
+[1.913s] creating teleop_twist_keyboard_ros2ws.egg-info
+[1.936s] writing teleop_twist_keyboard_ros2ws.egg-info/PKG-INFO
+[1.937s] writing dependency_links to teleop_twist_keyboard_ros2ws.egg-info/dependency_links.txt
+[1.937s] writing requirements to teleop_twist_keyboard_ros2ws.egg-info/requires.txt
+[1.937s] writing top-level names to teleop_twist_keyboard_ros2ws.egg-info/top_level.txt
+[1.937s] writing manifest file 'teleop_twist_keyboard_ros2ws.egg-info/SOURCES.txt'
+[2.008s] reading manifest file 'teleop_twist_keyboard_ros2ws.egg-info/SOURCES.txt'
+[2.008s] writing manifest file 'teleop_twist_keyboard_ros2ws.egg-info/SOURCES.txt'
+[2.033s] running build_ext
+[2.033s] Creating /home/antonio/ros2_ws/install/teleop_twist_keyboard/lib/python3.12/site-packages/teleop-twist-keyboard-ros2ws.egg-link (link to .)
+[2.035s] Installing teleop_twist_keyboard script to /home/antonio/ros2_ws/install/teleop_twist_keyboard/lib/teleop_twist_keyboard
+[2.036s] 
+[2.036s] Installed /home/antonio/ros2_ws/build/teleop_twist_keyboard
+[2.036s] running symlink_data
+[2.036s] creating /home/antonio/ros2_ws/install/teleop_twist_keyboard/share/ament_index
+[2.036s] creating /home/antonio/ros2_ws/install/teleop_twist_keyboard/share/ament_index/resource_index
+[2.036s] creating /home/antonio/ros2_ws/install/teleop_twist_keyboard/share/ament_index/resource_index/packages
+[2.036s] symbolically linking /home/antonio/ros2_ws/build/teleop_twist_keyboard/resource/teleop_twist_keyboard -> /home/antonio/ros2_ws/install/teleop_twist_keyboard/share/ament_index/resource_index/packages
+[2.036s] symbolically linking /home/antonio/ros2_ws/build/teleop_twist_keyboard/package.xml -> /home/antonio/ros2_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard
+[2.092s] Invoked command in '/home/antonio/ros2_ws/build/teleop_twist_keyboard' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/antonio/ros2_ws/build/teleop_twist_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/ros2_ws/install/teleop_twist_keyboard/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ai-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/antonio/ros2_ws/build/teleop_twist_keyboard/build --no-deps symlink_data

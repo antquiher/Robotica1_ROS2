@@ -1,0 +1,35 @@
+running egg_info
+writing ../../build/teleop_twist_keyboard/teleop_twist_keyboard_ros2ws.egg-info/PKG-INFO
+writing dependency_links to ../../build/teleop_twist_keyboard/teleop_twist_keyboard_ros2ws.egg-info/dependency_links.txt
+writing requirements to ../../build/teleop_twist_keyboard/teleop_twist_keyboard_ros2ws.egg-info/requires.txt
+writing top-level names to ../../build/teleop_twist_keyboard/teleop_twist_keyboard_ros2ws.egg-info/top_level.txt
+reading manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard_ros2ws.egg-info/SOURCES.txt'
+writing manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard_ros2ws.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/antonio/ros2_ws/build/teleop_twist_keyboard/build
+creating /home/antonio/ros2_ws/build/teleop_twist_keyboard/build/lib
+copying teleop_twist_keyboard_ros2ws.py -> /home/antonio/ros2_ws/build/teleop_twist_keyboard/build/lib
+creating /home/antonio/ros2_ws/build/teleop_twist_keyboard/build/lib/teleop_twist_keyboard
+copying teleop_twist_keyboard/teleop_twist_keyboard.py -> /home/antonio/ros2_ws/build/teleop_twist_keyboard/build/lib/teleop_twist_keyboard
+copying teleop_twist_keyboard/__init__.py -> /home/antonio/ros2_ws/build/teleop_twist_keyboard/build/lib/teleop_twist_keyboard
+running build_scripts
+creating /home/antonio/ros2_ws/build/teleop_twist_keyboard/build/scripts-3.12
+copying and adjusting scripts/teleop_twist_keyboard -> /home/antonio/ros2_ws/build/teleop_twist_keyboard/build/scripts-3.12
+changing mode of /home/antonio/ros2_ws/build/teleop_twist_keyboard/build/scripts-3.12/teleop_twist_keyboard from 664 to 775
+running install
+running install_lib
+copying /home/antonio/ros2_ws/build/teleop_twist_keyboard/build/lib/teleop_twist_keyboard_ros2ws.py -> /home/antonio/ros2_ws/install/teleop_twist_keyboard/lib/python3.12/site-packages
+creating /home/antonio/ros2_ws/install/teleop_twist_keyboard/lib/python3.12/site-packages/teleop_twist_keyboard
+copying /home/antonio/ros2_ws/build/teleop_twist_keyboard/build/lib/teleop_twist_keyboard/teleop_twist_keyboard.py -> /home/antonio/ros2_ws/install/teleop_twist_keyboard/lib/python3.12/site-packages/teleop_twist_keyboard
+copying /home/antonio/ros2_ws/build/teleop_twist_keyboard/build/lib/teleop_twist_keyboard/__init__.py -> /home/antonio/ros2_ws/install/teleop_twist_keyboard/lib/python3.12/site-packages/teleop_twist_keyboard
+byte-compiling /home/antonio/ros2_ws/install/teleop_twist_keyboard/lib/python3.12/site-packages/teleop_twist_keyboard_ros2ws.py to teleop_twist_keyboard_ros2ws.cpython-312.pyc
+byte-compiling /home/antonio/ros2_ws/install/teleop_twist_keyboard/lib/python3.12/site-packages/teleop_twist_keyboard/teleop_twist_keyboard.py to teleop_twist_keyboard.cpython-312.pyc
+byte-compiling /home/antonio/ros2_ws/install/teleop_twist_keyboard/lib/python3.12/site-packages/teleop_twist_keyboard/__init__.py to __init__.cpython-312.pyc
+running install_data
+running install_egg_info
+Copying ../../build/teleop_twist_keyboard/teleop_twist_keyboard_ros2ws.egg-info to /home/antonio/ros2_ws/install/teleop_twist_keyboard/lib/python3.12/site-packages/teleop_twist_keyboard_ros2ws-2.4.0-py3.12.egg-info
+running install_scripts
+copying /home/antonio/ros2_ws/build/teleop_twist_keyboard/build/scripts-3.12/teleop_twist_keyboard -> /home/antonio/ros2_ws/install/teleop_twist_keyboard/lib/teleop_twist_keyboard
+changing mode of /home/antonio/ros2_ws/install/teleop_twist_keyboard/lib/teleop_twist_keyboard/teleop_twist_keyboard to 775
+writing list of installed files to '/home/antonio/ros2_ws/build/teleop_twist_keyboard/install.log'

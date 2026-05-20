@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: teleop_twist_keyboard_ros2ws
+Version: 2.4.0
+Summary: Keyboard teleop for cmd_vel plus elbow arm control keys.
+Maintainer: antonio
+Maintainer-email: antonio@local
+License: BSD-3-Clause
+Requires-Dist: setuptools

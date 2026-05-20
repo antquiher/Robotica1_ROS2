@@ -1,0 +1,160 @@
+[0.100s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'diff_robot_urdf']
+[0.100s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['diff_robot_urdf'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f3d701dd490>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f3d701dca10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f3d701dca10>>, mixin_verb=('build',))
+[0.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.135s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/antonio/ros2_ws'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_robot_urdff) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_robot_urdff) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_robot_urdff) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_robot_urdff) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_robot_urdff) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_robot_urdff) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_robot_urdff) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_robot_urdff) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_robot_urdff) by extension 'ros'
+[0.164s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diff_robot_urdff' with type 'ros.ament_python' and name 'diff_robot_urdf'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentiment_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentiment_ros2) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentiment_ros2) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentiment_ros2) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentiment_ros2) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentiment_ros2) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentiment_ros2) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentiment_ros2) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentiment_ros2) by extension 'ros'
+[0.165s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sentiment_ros2' with type 'ros.ament_python' and name 'sentiment_ros2'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extension 'ros'
+[0.166s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teleop_twist_keyboard' with type 'ros.ament_python' and name 'teleop_twist_keyboard'
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.181s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sentiment_ros2' in 'src/sentiment_ros2'
+[0.181s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'teleop_twist_keyboard' in 'src/teleop_twist_keyboard'
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.183s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/antonio/ros2_ws/install
+[0.185s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 431 installed packages in /opt/ros/jazzy
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'diff_robot_urdf' build argument 'cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'diff_robot_urdf' build argument 'cmake_target' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'diff_robot_urdf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'diff_robot_urdf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'diff_robot_urdf' build argument 'cmake_clean_first' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'diff_robot_urdf' build argument 'cmake_force_configure' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'diff_robot_urdf' build argument 'ament_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'diff_robot_urdf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'diff_robot_urdf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.232s] DEBUG:colcon.colcon_core.verb:Building package 'diff_robot_urdf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/antonio/ros2_ws/build/diff_robot_urdf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/antonio/ros2_ws/install/diff_robot_urdf', 'merge_install': False, 'path': '/home/antonio/ros2_ws/src/diff_robot_urdff', 'symlink_install': True, 'test_result_base': None}
+[0.232s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.233s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.233s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/antonio/ros2_ws/src/diff_robot_urdff' with build type 'ament_python'
+[0.233s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_robot_urdf', 'ament_prefix_path')
+[0.235s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/hook/ament_prefix_path.ps1'
+[0.235s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/hook/ament_prefix_path.dsv'
+[0.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/hook/ament_prefix_path.sh'
+[0.236s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.236s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.511s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/antonio/ros2_ws/src/diff_robot_urdff'
+[0.512s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.512s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.167s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/antonio/ros2_ws/install/diff_robot_urdf/share/ament_index/resource_index/packages/diff_robot_urdf
+[1.167s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/package.xml
+[1.167s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/launch/sim.launch.py
+[1.167s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/launch/mapping.launch.py
+[1.167s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/worlds/tracer_classroom.sdf
+[1.167s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/worlds/Loyola_Hospital_min.world
+[1.167s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf/robot_arm.xacro
+[1.167s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf/fl_wheel.xacro
+[1.167s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf/fl_castor.xacro
+[1.167s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf/rr_castor.xacro
+[1.167s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf/fr_castor.xacro
+[1.167s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf/rl_wheel.xacro
+[1.167s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf/tracer_wheel_1.xacro
+[1.167s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf/tracer_v1.xacro
+[1.168s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf/tracer_wheel_2.xacro
+[1.168s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf/empty.urdf
+[1.168s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf/rr_wheel.xacro
+[1.168s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf/fr_wheel.xacro
+[1.168s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/urdf/rl_castor.xacro
+[1.168s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/meshes/tracer_base_link_no_wheel.dae
+[1.168s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/meshes/castor.dae
+[1.168s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/meshes/castor_joint.dae
+[1.168s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/meshes/caster_L.stl
+[1.168s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/meshes/caster.stl
+[1.168s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/meshes/tracer_base_link.dae
+[1.168s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/meshes/tracer_wheel.dae
+[1.168s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/config/ros_gz_bridge.yaml
+[1.168s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/antonio/ros2_ws/install/diff_robot_urdf/share/diff_robot_urdf/config/mapper_params_online_async.yaml
+[1.168s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/antonio/ros2_ws/install/diff_robot_urdf/lib/diff_robot_urdf/arm_controller
+[1.171s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/antonio/ros2_ws/build/diff_robot_urdf': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/antonio/ros2_ws/build/diff_robot_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/ros2_ws/install/diff_robot_urdf/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ai-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/antonio/ros2_ws/build/diff_robot_urdf/build --no-deps symlink_data --force
+[1.918s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/antonio/ros2_ws/build/diff_robot_urdf' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/antonio/ros2_ws/build/diff_robot_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/ros2_ws/install/diff_robot_urdf/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ai-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/antonio/ros2_ws/build/diff_robot_urdf/build --no-deps symlink_data --force
+[1.928s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.928s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.928s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[1.928s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.933s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.933s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.933s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.945s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.945s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/antonio/ros2_ws/install/local_setup.ps1'
+[1.946s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/antonio/ros2_ws/install/_local_setup_util_ps1.py'
+[1.947s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/antonio/ros2_ws/install/setup.ps1'
+[1.949s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/antonio/ros2_ws/install/local_setup.sh'
+[1.949s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/antonio/ros2_ws/install/_local_setup_util_sh.py'
+[1.950s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/antonio/ros2_ws/install/setup.sh'
+[1.951s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/antonio/ros2_ws/install/local_setup.bash'
+[1.951s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/antonio/ros2_ws/install/setup.bash'
+[1.952s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/antonio/ros2_ws/install/local_setup.zsh'
+[1.952s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/antonio/ros2_ws/install/setup.zsh'

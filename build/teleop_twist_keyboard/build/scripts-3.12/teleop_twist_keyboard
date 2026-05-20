@@ -1,0 +1,7 @@
+#!/usr/bin/python3
+
+from teleop_twist_keyboard_ros2ws import main
+
+
+if __name__ == '__main__':
+    main()

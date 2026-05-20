@@ -1,0 +1,25 @@
+[1.322s] Invoking command in '/home/antonio/ros2_ws/build/sentiment_ros2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/antonio/ros2_ws/build/sentiment_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/ros2_ws/install/sentiment_ros2/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ai-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/antonio/ros2_ws/build/sentiment_ros2/build --no-deps symlink_data
+[1.677s] running develop
+[1.942s] running egg_info
+[1.942s] creating sentiment_ros2.egg-info
+[1.965s] writing sentiment_ros2.egg-info/PKG-INFO
+[1.966s] writing dependency_links to sentiment_ros2.egg-info/dependency_links.txt
+[1.966s] writing entry points to sentiment_ros2.egg-info/entry_points.txt
+[1.966s] writing requirements to sentiment_ros2.egg-info/requires.txt
+[1.966s] writing top-level names to sentiment_ros2.egg-info/top_level.txt
+[1.966s] writing manifest file 'sentiment_ros2.egg-info/SOURCES.txt'
+[2.013s] reading manifest file 'sentiment_ros2.egg-info/SOURCES.txt'
+[2.014s] writing manifest file 'sentiment_ros2.egg-info/SOURCES.txt'
+[2.038s] running build_ext
+[2.038s] Creating /home/antonio/ros2_ws/install/sentiment_ros2/lib/python3.12/site-packages/sentiment-ros2.egg-link (link to .)
+[2.039s] Installing sentiment_subscriber script to /home/antonio/ros2_ws/install/sentiment_ros2/lib/sentiment_ros2
+[2.039s] Installing text_publisher script to /home/antonio/ros2_ws/install/sentiment_ros2/lib/sentiment_ros2
+[2.040s] 
+[2.040s] Installed /home/antonio/ros2_ws/build/sentiment_ros2
+[2.040s] running symlink_data
+[2.040s] creating /home/antonio/ros2_ws/install/sentiment_ros2/share/ament_index
+[2.040s] creating /home/antonio/ros2_ws/install/sentiment_ros2/share/ament_index/resource_index
+[2.040s] creating /home/antonio/ros2_ws/install/sentiment_ros2/share/ament_index/resource_index/packages
+[2.040s] symbolically linking /home/antonio/ros2_ws/build/sentiment_ros2/resource/sentiment_ros2 -> /home/antonio/ros2_ws/install/sentiment_ros2/share/ament_index/resource_index/packages
+[2.040s] symbolically linking /home/antonio/ros2_ws/build/sentiment_ros2/package.xml -> /home/antonio/ros2_ws/install/sentiment_ros2/share/sentiment_ros2
+[2.103s] Invoked command in '/home/antonio/ros2_ws/build/sentiment_ros2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/antonio/ros2_ws/build/sentiment_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/ros2_ws/install/sentiment_ros2/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ai-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/antonio/ros2_ws/build/sentiment_ros2/build --no-deps symlink_data
